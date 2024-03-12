@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 357px;
+    height: 71px;
+}
+
+.footer-container{
+    /* max-width: 1170px; */
+    max-width: 100%;
+    margin-left: 4%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ul{
+    list-style: none;
+    position: relative;
+} 
+
+.footer{
+    position: relative;
+    top: 2200px;
+    background-color: #0d3051;
+}
+
+.footer-col{
+    width: 28%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    text-align: left;
+    font: normal normal 900 20px/35px Poppins;
+    letter-spacing: 0px;
+    margin-top: 90px;
+    color: #FFFEFE;
+    opacity: 1;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 14px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFEFE;
+    opacity: 1;
+}
+
+address{
+    color: #ffffff;
+    line-height: 3;
+}
+
+.location{
+    width: 20px;
+    height: 25px;
+}
+
+.call{
+    width: 21px;
+    height: 21px;
+}
+
+.mail{
+    width: 23px;
+height: 16px;
+}
+
+.contact-text{
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 14px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFEFE;
+    opacity: 1;
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0d3051;
+    height: 40px;
+}
+
+.line{
+    border: 1px solid #FFFEFE;;
+    width: 80%;
+    position: relative;
+    left: 100px;
+    
+}
+
+.footer-legal{
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.footer-legal p{
+    position: relative;
+    bottom: 30px;
+}
+
+/* .second-logo{
+    max-height: 150px;
+    max-width: 200px;
+    width: 100px;
+    height: 50px;
+} */
+
+.second-logo {
+    width: 200px;
+    height: 120px;
+}
+
+
+.second-logo img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 97.5%;
+    top: 87%;
+}
+
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }   
+
+    .footer{
+        position: relative;
+        top: 5200px;
+    }
+}
+
+@media(max-width:574px){
+    .footer-col{
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.44" height="58.146" viewBox="0 0 56.44 58.146">
+  <g id="Group_168" data-name="Group 168" transform="translate(-380.562 -2502)">
+    <g id="Group_157" data-name="Group 157" transform="translate(399 2502)">
+      <g id="Group_159" data-name="Group 159">
+        <path id="Path_82" data-name="Path 82" d="M0,1A1,1,0,0,1,1,0,11.8,11.8,0,0,1,12.8,11.8a1,1,0,0,1-2,0A9.8,9.8,0,0,0,1,2,1,1,0,0,1,0,1M0,8.2a1,1,0,0,1,1-1,4.6,4.6,0,0,1,4.6,4.6,1,1,0,1,1-2,0A2.6,2.6,0,0,0,1,9.2a1,1,0,0,1-1-1" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g id="Group_158" data-name="Group 158" transform="matrix(0.966, 0.259, -0.259, 0.966, 383.875, 2513.362)">
+      <g id="Group_160" data-name="Group 160" transform="translate(0 0)">
+        <path id="Path_82-2" data-name="Path 82" d="M12.8,11.8a1,1,0,0,1-1,1A11.8,11.8,0,0,1,0,1,1,1,0,1,1,2,1a9.8,9.8,0,0,0,9.8,9.8,1,1,0,0,1,1,1m0-7.2a1,1,0,0,1-1,1A4.6,4.6,0,0,1,7.2,1a1,1,0,1,1,2,0,2.6,2.6,0,0,0,2.6,2.6,1,1,0,0,1,1,1" transform="translate(0 0)" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <path id="Path_83" data-name="Path 83" d="M3.15,7.6l18.1,18.111-5.2.691-3.233.427,1.243,3.006,4.658,11.24-2.9,1.2L11.157,31.04,9.9,28.024,7.325,30.005,3.15,33.2ZM0,0V39.571l8.568-6.555,4.24,10.238.093.223,1.211,2.909,8.721-3.618-1.211-2.909L17.3,29.406l10.686-1.428Z" transform="translate(397.318 2515.557) rotate(-16)" fill="#fff"/>
+  </g>
+</svg>

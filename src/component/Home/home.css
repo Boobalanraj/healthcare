@@ -1,0 +1,487 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffff;
+} */
+
+img{
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.9);
+}
+
+.picture{
+    height: 500px;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 32.5%;
+    text-align: center;
+    font: normal normal 900 62px/78px Poppins;
+    letter-spacing: 0.68px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.sub-title{
+    position: absolute;
+    top: 60%;
+    left: 39%;
+    letter-spacing: NaNpx;
+    font:normal normal 50 22px Poppins;
+    color: #FFFEFE;
+    opacity: 1;
+}
+
+.candidate{
+    position: absolute;
+    top: 75%;
+    left: 39%;
+    width: 154px;
+    height: 57px;
+}
+
+.client{
+    position: absolute;
+    top: 75%;
+    left: 56%;
+    width: 154px;
+    height: 57px;
+}
+
+.login{
+    position: absolute;
+    top: 76%;
+    left: 50.5%;
+    font: normal normal 20px/35px Poppins;
+    letter-spacing: 0px;
+    color: #FFFEFE;
+    opacity: 1;
+}
+
+.home-title{
+    text-align: center;
+    position: relative;
+    top: 250px ;
+    font: normal normal 900 42px/27px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+}
+
+.home-content{
+    text-align: center;
+    position: relative;
+    top: 290px;
+    line-height: 2;
+    font: normal normal medium 17px Poppins;
+    letter-spacing: 0px;
+    color: #222222;
+}
+
+.home-CV{
+    position: absolute;
+    width: 114px;
+    height: 46px;
+    top: 160%;
+    left: 47%;
+}
+
+.home-section-2{
+    margin-bottom: 400px;
+}
+
+.home-section-3 .home-title{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #3661EB;
+    opacity: 1;
+}
+
+.home-section-3 .home-content{
+    text-align: center;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+.home-section-3 .home-line{
+    position: absolute;
+    border: 2px solid #222222;
+    opacity: 1;
+    width: 60%;
+    top: 220%;
+    left:20% ;
+}
+
+.home-section-3 .home-search{
+    position: absolute;
+    left: 83%;
+    top: 202%;
+}
+
+.home-section-3{
+    margin-bottom: 500px;
+}
+
+.home-section-4{
+    background-color: #3561EB;
+    height: 760px;
+
+}
+.home-section-4 .home-title{
+    text-align: left;
+    letter-spacing: 0px;
+    position: relative;
+    left: 7%;
+    color: #FFFFFF;
+}
+
+.home-section-4 .home-content{
+    text-align: left;
+    position: relative;
+    left: 7%;
+    font: normal normal normal 16px/23px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.home-section-4 .home-image{
+    width: 548px;
+    height: 604px;
+    position: absolute;
+    left: 55%;
+    top: 247%;
+    box-shadow: 50px 48px 0 10px #ffffff;
+}
+
+.home-section-4 .home-button{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    font-size: small;
+    padding: 10px 10px;
+    letter-spacing: 0px;
+    color: #3661EC;
+    opacity: 1;
+    position: relative;
+    left: 7%;
+    top: 45%;
+}
+
+.home-section-4 .home-text{
+    position: relative;
+    left: 31%;
+    top: 67%;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1
+}
+
+.home-section-5{
+    position: relative;
+    top: 20%;
+    right: 14%;
+    margin-bottom:350px;
+}
+    /* #cards-3{
+        position: absolute;
+        top: 100%;
+    }
+    left: 20%;
+} */
+
+#cards-3 .card{
+    width: 365px;
+    height: 237px;
+    margin-top: 50%;
+    margin-bottom: 10%;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+#cards-3 .card-3-title{
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+    font: normal normal 600 24px/60px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.first-card, .thrid-card{
+    background-color: #3661EB;
+    border-radius: 8px;
+}
+
+.second-card{
+    background-color: #FF4B73;
+    border-radius: 8px;
+}
+
+#cards-3 .card-image{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    width: 56px;
+    height: 58px;
+}
+
+#cards-3 .card-3-text{
+    text-align: left;
+    font: normal normal normal 12px/20px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.arrow{
+    position: absolute;
+    top: 82%;
+    left:7%;
+}
+
+.rectangle{
+    margin-bottom: 7%;
+    margin-left: 5%;
+}
+
+.thrid-card .rectangle{
+    position: absolute;
+    top: 82.5%;
+}
+
+
+.arrow p{
+    position: absolute;
+    top: 20%;
+    left: 10px;
+
+    text-align: left;
+    white-space: nowrap;
+    font-size: smaller 8px;
+    /* font: normal normal medium 10px/10px Poppins; */
+    letter-spacing: 0px;
+    color: #FFFEFE;
+    opacity: 1;
+}
+
+.home-section-6 .home-title{
+    text-align: center;
+    font: normal normal 600 40px/12px Poppins;
+    letter-spacing: 0pt;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 100px;
+}
+
+.home-section-6 .home-image{
+    position: absolute;
+    width: 112px;
+    height: 77px;
+    left:46%;
+    top: 398%;
+}
+
+.home-section-6 .home-content{
+    text-align: center;
+    font-size:20px ;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    opacity: 1;
+}
+
+.home-section-6 .home-preview{
+    position: absolute;
+    left: 15%;
+    top:425%;
+    width: 52px;
+    height: 52px;
+}
+
+.home-section-6 .home-next{
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    rotate: 180deg;
+    top: 425%;
+    left:85%;
+}
+
+.home-section-6 .home-person-1{
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    left: 45.5%;
+    top: 445%;
+}
+
+.home-section-6 .home-person-2{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 39%;
+    top: 447%;
+}
+
+.home-section-6 .home-person-3{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 53.8%;
+    top: 447%;
+}
+
+.home-section-6 .sub-title{
+    position: relative;
+    font-weight: bold;
+    top: 480px;
+    left: 44.5%;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    opacity: 1;
+}
+
+.home-section-6 .sub-content{
+    position: relative;
+    font-weight: bold;
+    top: 480px;
+    left: 45.5%;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    opacity: 1;
+}
+
+.home-section-6{
+    margin-bottom: 500px;
+}
+
+.home-section-7 .home-title{
+    text-align: center;
+    line-height: 1.2;
+    font-weight:500;
+    font: normal normal medium 42px/54px Poppins;
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+}
+
+.home-section-7 .home-content{
+    text-align: center;
+    font: normal normal normal 16px/21px Poppins;
+    letter-spacing: 0px;
+    color: #010101;
+    opacity: 1;
+}
+
+.home-section-7 .cqc-image1{
+    width: 134px;
+    height: 95px;
+    position: relative;
+    left: 17%;
+    top: 370px;
+}
+
+.home-section-7 .cqc-image2{
+    position: relative;
+    width: 223px;
+    height: 89px;
+    left: 12%;
+    top: 370px;
+}
+
+.home-section-7 .cqc-image3{
+    position: relative;
+    width: 219px;
+    left: 17%;
+    height: 97px;
+    top: 370px;
+}
+.home-section-7 .cqc-image4{
+    position: relative;
+    left: 25%;
+    top: 450px;
+    width: 294px;
+    height: 64px;
+}
+.home-section-7 .cqc-image5{
+    position: relative;
+    width: 235px;
+    left: 17%;
+    height: 43px;
+    top: 400px;
+}
+.home-section-7 .cqc-image6{
+    position: relative;
+    top: 450px;
+    left: 50%;
+    width: 244px;
+    height: 96px;
+}
+.home-section-7 .cqc-image7{
+    position: relative;
+    width: 98px;
+    left: 63%;
+    height: 58px;
+    top: 450px;
+}
+.home-section-7 .cqc-image8{
+    position: relative;
+    width: 264px;
+    left:18%;
+    height: 63px;
+    top: 450px;
+}
+
+.home-section-7 .home-button{
+    position: relative;
+    background: #404041 0% 0% no-repeat padding-box;
+    border-radius: 17px 17px 0px 0px;
+    opacity: 1;
+    left: 45%;
+    top: 490px;
+    padding: 10px 10px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.home-section-7{
+    margin-bottom: 650px;
+}
+
+.home-section-8 .home-tiles{
+    position: absolute;
+    left: 17%;
+    width: 978px;
+    height: 344px;
+}
+
+.home-section-8 .home-robot{
+    position: absolute;
+    left: 22%;
+    top: 586%;
+    width: 462px;
+    height: 462px;
+}
+
+.home-section-8 .home-tiles2{
+    position:absolute;
+    top: 593%;
+    left: 50%;
+    width: 462px;
+    height: 347px
+}
+
+
+.home-section-9{
+    position: relative;
+    bottom: 1750px;
+}

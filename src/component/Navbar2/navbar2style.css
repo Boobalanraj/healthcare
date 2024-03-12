@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffff;
+    overflow-x: hidden;
+}
+
+.icon{
+    max-width: 269px;
+    max-height: 53px;
+    position: absolute;
+    top: 30px;
+    left: 7%;
+}
+
+#navbarNav{
+    position: absolute;
+    top: 70px;
+    left: 57%;
+    white-space: nowrap;
+}
+
+#navbar-toggler{
+    position: absolute;
+    top: 35px;
+    left: 70%;
+
+}

@@ -1,0 +1,189 @@
+.picture{
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+.head{
+    text-align: center;
+    font: normal normal 600 42px/60px Poppins;
+    color: #FFFFFF;
+    position: relative;
+    top:270px;
+}
+
+.content{
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: 290px;
+    font-size: 13px;
+}
+
+.clinical{
+    background: #3661EB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    border: 8px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    position: absolute;
+    width: 260px;
+    height: 60px;
+    position:absolute;
+    top: 70%;
+    right: 51%;
+}
+
+.non-clinical{
+    background: #3661EB 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000029;
+    border: 8px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+    position: absolute;
+    top: 70%;
+    left: 52%;
+    width: 260px;
+    height: 60px;
+}
+
+.title-2{
+    position: absolute;
+    top: 110%;
+    left: 43%;
+    text-align: center;
+    font: normal normal 600 34px/20px Poppins;
+    letter-spacing: 0px;
+    color: #0F2B58;
+    opacity: 1;
+}
+
+#dishes .card-image{
+    width: 225px;
+    height: 127px;
+    margin-left: 9%;
+    margin-top: 8%;
+}
+
+.card-title{
+    text-align: left;
+    margin-top: 8%;
+    font: normal normal 500 22px/20px Poppins;
+    padding-left: 20px;
+    letter-spacing: 0px;
+    color: #3661EB;
+    opacity: 1;
+}
+
+.card-text{
+    text-align: left;
+    padding-left: 20px;
+    font-family: Poppins;
+    font-size: small;
+    text-align: lefts;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+
+#dishes{
+    position: absolute;
+    top:120%;
+    left: 11.5%;
+    right: auto;
+}
+
+.more-button{
+    margin-top: 20%;
+    margin-bottom: 8%;
+    margin-left: 8%;
+}
+
+#dishes .card{
+    margin-bottom: 10%;
+    /* margin-right: 30%; */
+}
+
+#cards-3{
+    position: absolute;
+    top: 220%;
+    left: 20%;
+}
+
+#cards-3 .card{
+    width: 365px;
+    height: 237px;
+    margin-top: 50%;
+    margin-bottom: 10%;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+#cards-3 .card-3-title{
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: left;
+    font: normal normal 600 24px/60px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.first-card, .thrid-card{
+    background-color: #3661EB;
+    border-radius: 8px;
+}
+
+.second-card{
+    background-color: #FF4B73;
+    border-radius: 8px;
+}
+
+#cards-3 .card-image{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+    width: 56px;
+    height: 58px;
+}
+
+#cards-3 .card-3-text{
+    text-align: left;
+    font: normal normal normal 12px/20px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.arrow{
+    position: absolute;
+    top: 82%;
+    left:7%;
+}
+
+.rectangle{
+    margin-bottom: 7%;
+    margin-left: 5%;
+}
+
+.thrid-card .rectangle{
+    position: absolute;
+    top: 82.5%;
+}
+
+.arrow p{
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    text-align: left;
+    white-space: nowrap;
+    font-size: smaller;
+    /* font: normal normal medium 10px/10px Poppins; */
+    letter-spacing: 0px;
+    color: #FFFEFE;
+    opacity: 1;
+}
